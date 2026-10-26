@@ -3,10 +3,6 @@ import java.nio.file.*;
 import java.util.*;
 import javax.tools.*;
 
-/**
- * Compiles your program and checks it on the three examples.
- * Run from the project folder:   java tools/Check.java
- */
 public class Check {
 
     static final String[] MISSION = {"1", "1", "1", "2", "2", "3", "3", "3", "4", "4", "4", "5", "5"};
