@@ -1,11 +1,9 @@
 # Assignment 3. Maze Escape
 
 Student ID: 251419
-Name: TODO
-Group: TODO
+Name: Mussabekuly Kuanysh
+Group: SE_2511
 Maze size (rows x columns): 11 x 8
-
-This file is the report. Fill it in as you go. How to start: `START_HERE.md`. The task: `docs/Assignment3.pdf`.
 
 ## Program output
 
