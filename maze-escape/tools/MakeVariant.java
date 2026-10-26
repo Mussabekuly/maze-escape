@@ -3,11 +3,6 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.util.*;
 
-/** Makes the personal files of one student: walls.txt (the maze) and slides.txt (one-way slides between cells).
- *  Usage: java MakeVariant.java STUDENT_ID [outdir]   (or: javac MakeVariant.java, then java MakeVariant STUDENT_ID)
- *  walls.txt:  first line "R C W", then W lines "a b w": a wall between the neighbouring cells a and b, w = cost of breaking it.
- *  slides.txt: first line "n S", then S lines "a b w": a one-way slide from cell a to cell b, w = time.
- *  Cells are numbered 0 .. R*C-1 row by row. Start = cell 0, exit = cell R*C-1. */
 public class MakeVariant {
     static final String SALT = "AITU-DAA-A3-MAZE-2026";
 
